@@ -4,31 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <head>
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      />
+      <!-- Other head elements like title, meta tags, etc. -->
+    </head>
     <title>My Page</title>
   </head>
 
   <body>
-  <nav class="navbar">
-    <!-- Logo -->
-    <div class="logo">
-      <span>B</span>
-    </div>
+    <nav class="navbar">
+      <!-- Logo -->
+      <div class="logo">
+        <span>B</span>
+      </div>
 
-    <!-- Navigation Links -->
-    <ul class="nav-links">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Services</a></li>
-      <li><a href="#">Our Work</a></li>
-      <li><a href="#">Rims & Tires</a></li>
-      <li><a href="#">About Us</a></li>
-      <li><a href="#">My Account</a></li>
-    </ul>
+      <!-- Navigation Links -->
+      <ul class="nav-links">
+        <li><a id="nav-home" href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Our Work</a></li>
+        <li><a href="#">Rims & Tires</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">My Account</a></li>
+      </ul>
 
-    <!-- Actions -->
-    <div class="nav-actions">
-      <button class="cart-btn">Cart</button>
-      <button class="book-btn">Book Now</button>
-    </div>
-  </nav>
-</body>
+      <!-- Actions -->
+      <div class="nav-actions">
+        <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Cart (0 items)</button>
+
+        <button class="book-btn">Book Now</button>
+      </div>
+    </nav>
+  </body>
 </html>
