@@ -54,3 +54,54 @@ body {
 #nav-home{
     color: #f4a640;
 }
+.body-work{
+    display: flex;
+    width: 100%;
+    height: 350px;
+}
+
+.body-work > div {
+  width: 25%;
+  height: 100%;
+  overflow: hidden;
+}
+.body-work img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text-overlays{
+    position: absolute;
+    font-weight: 400;
+    top: 340px;
+    left: 10px;
+    font-size: 25px;
+    color: #f4a640;
+}
+
+.lower-text{
+    margin-top: 40px;
+    max-width: 1150px;
+    display: flex;
+    width: 100%;
+    
+}
+.lower-text > div{
+    width: 25%;
+}
+.stats-divider {
+  margin-top: 25px;
+  height: 1px;
+  background-color: #999;
+  width: 100%;
+}
+.stats-container {
+  max-width: 1200px;   /* controls how wide it is */
+  margin: 0 auto;      /* centers it */
+  padding: 0 20px;     /* mobile breathing room */
+}
+
+.stats{
+    font-size: 50px;
+}
