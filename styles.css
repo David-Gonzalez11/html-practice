@@ -25,9 +25,10 @@ body {
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 24px;
+  gap: 50px;
   margin: 0;
   padding: 0;
+  
 }
 
 .nav-links a {
@@ -104,4 +105,9 @@ body {
 
 .stats{
     font-size: 50px;
+}
+
+p{
+    font-size: 15px;
+    margin: 15px;
 }
